@@ -8,7 +8,7 @@
 
 4. DC analysis:
 
-5. **Saturation Mode**: When $\beta I_BR_C > V_{CC}$, which means $I_C$ can no longer increase. The BC junction becomes forward biased, and the relationship between the base current and collector current is no longer linear. The circuit can still be analyzed using a dc equivalent circuit, but $V_{CE}$ is given. (Use $V_{CE}$ to determine)
+5. **Saturation Mode**: When $\beta I_BR_C > V_{CC}$, which means $I_C$ can no longer increase. The BC junction becomes forward biased, and the relationship between the base current and collector current is no longer linear. The circuit can still be analyzed using a dc equivalent circuit, but $V_{CE}$ is given. (Use $V_{CE}$ to determine) , holds: $\frac{I_C}{I_B} = \beta_{\text{Forced}}< \beta$
 
 6. 
 
