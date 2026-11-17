@@ -1,0 +1,78 @@
+% 使用 XeLaTeX 編譯：xelatex main.tex
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=0.76in,top=0.66in,bottom=0.66in]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+\setmainfont{TeX Gyre Heros}
+\setCJKmainfont{Microsoft JhengHei}
+\newCJKfontfamily\namefont{Source Han Serif CN}
+\hypersetup{hidelinks}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.10}
+\setlist[itemize]{leftmargin=1.6em,topsep=2pt,itemsep=1pt,parsep=0pt,partopsep=0pt}
+\titleformat{\section}{\normalsize\bfseries}{}{0pt}{}[\vspace{-2pt}\titlerule]
+\titlespacing*{\section}{0pt}{9pt}{5pt}
+
+\begin{document}
+\raggedright
+
+\begin{center}
+  {\namefont\LARGE 朱霁恒}\quad{\Large Jiheng Zhu}\\[6pt]
+  \href{tel:+85363759311}{+853 63759311}\quad\textbar\quad
+  \href{tel:+8618762460011}{+86 18762460011}\\[2pt]
+  \href{mailto:sevenszhujiheng@outlook.com}{sevenszhujiheng@outlook.com}\quad\textbar\quad
+  \href{https://github.com/sevenszhu}{github.com/sevenszhu}\\[3pt]
+  電子與信息工程本科生
+\end{center}
+
+\section*{教育背景}
+\textbf{澳門科技大學｜創新工程學院}\hfill 2024年9月--預計2028年6月\\
+理學學士（電子與信息工程）
+
+\section*{專業技能}
+\begin{itemize}
+  \item \textbf{程式語言：}使用 C、C++；能閱讀 Python 程式碼。
+  \item \textbf{系統與工具：}使用 Linux、macOS 等類 Unix 系統的常用 Shell 命令，並使用 Git 進行版本管理。
+  \item \textbf{PCB 與電路設計：}使用 EasyEDA 繪製原理圖及雙層 PCB；具備 Altium Designer 使用經驗，能閱讀元件規格書並進行元件選型及電路分析。
+  \item \textbf{測試與實作：}使用萬用電錶及示波器進行量測與故障排查；具備 PCB 焊接及修改經驗。
+  \item \textbf{嵌入式系統：}具備 STM32 電路實作經驗，參與 PWM 驅動 Boost 升壓電路原型的搭建與調試。
+\end{itemize}
+
+\section*{工程經歷}
+\textbf{無錫華普微電子有限公司｜實習生}\hfill 2026年8月
+\begin{itemize}
+  \item 整理及核對物料清單（BOM），比對元件料號、規格與數量，記錄修訂內容，供工程團隊覆核。
+  \item 參與參考電路板的 PCB 逆向分析，辨識元件與追查電路連接，整理元件佈局和連線資料，以支援原理圖及板圖重建。
+\end{itemize}
+
+\textbf{澳門科技大學｜電力電子實驗室｜本科生}\hfill 2026年6月--7月
+\begin{itemize}
+  \item 搭建並反覆測試單片機控制的 Boost 升壓電路原型，組裝控制電路與功率級，利用 PWM 驅動 MOSFET 開關。
+  \item 驗證 PWM 信號穩定輸出，觀察功率級開關波形與升壓輸出，並於實驗報告記錄測試結果及故障排查過程。
+\end{itemize}
+
+\section*{科研經歷}
+\textbf{澳門科技大學｜納米材料實驗室｜本科生}\hfill 2025年5月--10月
+\begin{itemize}
+  \item 協助進行納米材料與電催化實驗，參與實驗操作、過程記錄及結果整理。
+  \item 整理、分析及可視化實驗數據，協助研究團隊判讀實驗結果。
+\end{itemize}
+
+\section*{學術論文}
+Z. Qu, S. Zhang, \textbf{J. Zhu}, et al. ``Construction of stable Cu--O--Fe bridging structure for highly efficient electrocatalytic nitrate reduction to ammonia.'' \textit{Chemical Communications}, 2026. DOI: \href{https://doi.org/10.1039/D6CC01243D}{10.1039/D6CC01243D}.\\[3pt]
+T. Hu, H. Yang, Z. Li, \textbf{J. Zhu}, et al. ``Interfacial Photophysics and Solvent-triggered Phase Reconstruction in Cs$_4$PbBr$_6$ Quantum Dots for Optical/Electrical Dual-Mode Sensing.'' \textit{Small}, 2026. DOI: \href{https://doi.org/10.1002/smll.75924}{10.1002/smll.75924}.
+
+\section*{相關課程}
+數字電路、模擬電路、電路分析、計算機組成原理、FPGA 系統設計、信號與系統。
+
+\section*{個人特點}
+善於與人溝通及協調各方，重視團隊合作，樂於聆聽不同意見，並積極根據回饋調整及改進工作。
+
+\end{document}
