@@ -13,3 +13,25 @@
    1. For a **finite** dimensional vector: $\|\mathbf v\|_p^p=\sum_{i=1}^n|v_i|^p$
 
    2. For a **infinite** dimensional vector: $\|\mathbf v\|_\infty=\max_i|v_i|$
+
+4. Jacobi Iteration:
+
+   To a linear equation series:
+
+   $$
+   \begin{cases}
+   a_{11}x+a_{12}y=b_1\\
+   a_{21}x+a_{22}y=b_2
+   \end{cases}
+   $$
+
+   We have (choose the variable with the largest absolute coefficient, help speed up the convergence):
+
+   $$
+   \begin{cases}
+   x^{(k+1)} = \dfrac{b_1-a_{12}y^{(k)}}{a_{11}} \\[10pt]
+   y^{(k+1)} = \dfrac{b_2-a_{21}x^{(k)}}{a_{22}}
+   \end{cases}
+   $$
+
+   <img src="figures/Jacobi_iterative.svg" title="" alt="" data-align="center" />
